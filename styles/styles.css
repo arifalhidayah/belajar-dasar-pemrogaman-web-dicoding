@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+h2, h3 {
+    color: brown;
+}
+
+footer {
+    padding: 20px;
+    color: aqua;
+    background-color: black;
+}
