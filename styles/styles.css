@@ -70,6 +70,8 @@ nav li {
 nav {
     background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 main {
@@ -87,3 +89,17 @@ aside {
     width: 25%;
     padding-left: 20px;
 }
+
+
+header {
+    display: inline; /* display inline, agar navigation sticky bisa berfungsi*/
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0px;
+    }    
+}
+
+/* Minify CSS tidak dilakukan karena untuk mempermudah belajar dikemudian hari. Tapi ingat, Minify CSS penting agar website kita bisa lebih cepat diakses */
